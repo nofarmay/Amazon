@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "AmazonEmber";
+    src: url("/fonts/AmazonEmber_Rg.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "AmazonEmber";
+}
+
+/* ********* header ********** */
+
+/* / *** Header Top***/
+.header-top {
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.header-top_left {
+    margin-left: 11px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    height: 49px;
+    width: 113px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png");
+    background-position: 0 861px;
+}
+
+.header-location {
+    display: flex;
+    flex-direction: column;
+    width: 70.641px;
+    height: 50px;
+}
+
+.location-left {
+    width: 25px;
+    height: 18px;
+ 
+}
+
+.usa{
+    width: 19.2px;
+    height: 14.4px;
+    margin-right: 0.5rem;
+}
+
+.header-top_mid {
+    background: #636161;
+    
+    flex-grow: 1;
+}
+
+.header-top_right .rigth_tools ul {
+    display: flex;
+    list-style: none;
+}
+
+
+/* / *** Header mid***/
+.header-mid {
+    height: 39px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+}
+
+.main-navbar-ul {
+    display: flex;
+    text-align: center;
+    width: 922.578px;
+    height: 39px;
+    align-items: flex-end;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    font-size: 12px;
+    flex-basis: auto;
+
+}
+
+.main-navbar-ul li {
+    padding: 0px 1.5rem;
+    list-style: none;
+}
+
+/* / *** Header note***/
+.header-note {
+    height: 48px;
+    background-color: #d8f7eb;
+}
+
+/* / *** Header bottom***/
+
+
+.header-bottom {
+    height: 33px;
+    border-top: 1px solid rgba(0, 0, 0, 0.17);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.17);
+    background-color: #fafafa;
+}
+
+
+.breadcrumbs-container ul li {
+    margin-top: 8px;
+    font-size: 12px;
+    display: block;
+    line-height: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0px;
+
+}
+
+/* ********* Product+ ********** */
+.product {
+    display: flex;
+    justify-content: space-between;
+    height: 923px;
+}
+
+.picture {
+    width: 545px;
+    height: 447.98px;
+}
+
+.breadcrumbs-container ul {
+    display: flex;
+}
+
+
+.Palmers-h {
+    font-size: 24px;
+}
+
+.Plamers-brand {
+    font-size: 14px;
+    text-decoration-color: rgb(0, 113, 133);
+    text-decoration-style: solid;
+    text-decoration-line: none;
+}
+
+.a-icon.a-star-5 {
+    width: 80px;
+    height: 18px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/ouR9NRElwmzAIev.png);
+    -webkit-background-size: 512px 512px;
+    background-size: 512px 512px;
+    background-repeat: no-repeat;
+    background-position: -2px -2px;
+
+}
+
+.product-desc {
+    background-color: rgb(255, 255, 255);
+    ;
+    height: 100%;
+    width: 30%;
+}
+
+.product-fees {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 30%;
+}
+
+.upper-box {
+    border-radius: 8px;
+    position: relative;
+    padding: 14px 18px;
+    display: block;
+}
